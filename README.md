@@ -103,19 +103,3 @@ Predictions were compared against the embedding-based classifier.
 - F1 Score: ~0.65
 
 The experiments showed that predicting engagement using limited metadata is challenging because many features had weak correlations with engagement scores. The LLM baseline achieved higher recall but tended to overpredict high-engagement videos.
-
----
-
-## Repository Structure
-
-```text
-project/
-│
-├── notebooks/
-│   └── youtube_engagement_prediction.ipynb
-│
-├── images/
-│
-├── README.md
-│
-└── requirements.txt
